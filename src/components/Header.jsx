@@ -16,15 +16,15 @@ export default function Header() {
       </div>
       {/* Navigation links */}
       <nav className="flex space-x-6">
-        <Link href="/">
+        {/* <Link href="/">
           <p className="hover:text-gray-300 cursor-pointer">Home</p>
-        </Link>
-        <Link href="/login">
+        </Link> */}
+        {/* <Link href="/login">
           <p className="hover:text-gray-300 cursor-pointer">Log In</p>
         </Link>
         <Link href="/signup">
           <p className="hover:text-gray-300 cursor-pointer">Sign Up</p>
-        </Link>
+        </Link> */}
       </nav>
     </header>
   );
